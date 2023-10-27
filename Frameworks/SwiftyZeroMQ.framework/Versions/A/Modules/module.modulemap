@@ -1,0 +1,11 @@
+framework module SwiftyZeroMQ {
+  umbrella header "SwiftyZeroMQ.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyZeroMQ.Swift {
+  header "SwiftyZeroMQ-Swift.h"
+  requires objc
+}

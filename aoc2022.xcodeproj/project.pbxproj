@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0988D4299B342D00541B90 /* Day13Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0988D3299B342D00541B90 /* Day13Part2View.swift */; };
+		0F36232929A2045E00735FD6 /* VisualisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36232829A2045E00735FD6 /* VisualisationView.swift */; };
+		0F36232B29A2182A00735FD6 /* Visualisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36232A29A2182A00735FD6 /* Visualisation.swift */; };
+		0F398B5229711F660037F10C /* Day10Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F398B5129711F660037F10C /* Day10Part2View.swift */; };
+		0F398B5629719FD80037F10C /* LargeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F398B5529719FD80037F10C /* LargeOutput.swift */; };
+		0F398B582971A09A0037F10C /* LargeOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F398B572971A09A0037F10C /* LargeOutputView.swift */; };
+		0F398B5A2971A3890037F10C /* QuizWithLargeOutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F398B592971A3890037F10C /* QuizWithLargeOutputView.swift */; };
+		0F39A5702A77B20F00A37223 /* Day14Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F39A56F2A77B20F00A37223 /* Day14Part2View.swift */; };
+		0F51C357296EBD7C00743AC0 /* CathodeRayTube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F51C355296EBD7C00743AC0 /* CathodeRayTube.cpp */; };
+		0F5FCC7A29640E2700353BE9 /* Day8Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCC7929640E2700353BE9 /* Day8Part2View.swift */; };
+		0F5FCC7C29640E7800353BE9 /* Treetop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCC7B29640E7800353BE9 /* Treetop.swift */; };
+		0F5FCC7E2966D1BB00353BE9 /* Day9Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCC7D2966D1BB00353BE9 /* Day9Part1View.swift */; };
+		0F5FCC822966D33900353BE9 /* RopeBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCC802966D33900353BE9 /* RopeBridge.cpp */; };
+		0F5FCC8429670B3800353BE9 /* RopeBridgeWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCC8329670B3800353BE9 /* RopeBridgeWrapper.mm */; };
+		0F6ECFD3296D76F000A06DCA /* Day9Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6ECFD2296D76F000A06DCA /* Day9Part2View.swift */; };
+		0F6ECFD5296DA9DA00A06DCA /* Day10Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6ECFD4296DA9DA00A06DCA /* Day10Part1View.swift */; };
+		0F6ECFD8296DB42A00A06DCA /* CathodeRayTubeWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F6ECFD7296DB42A00A06DCA /* CathodeRayTubeWrapper.mm */; };
+		0F8AFB492980FD4800529DCF /* Day12Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AFB482980FD4800529DCF /* Day12Part1View.swift */; };
+		0F8AFB4C2980FEB900529DCF /* HillClimbingAlgorithmWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AFB4B2980FEB900529DCF /* HillClimbingAlgorithmWrapper.mm */; };
+		0F8AFB4F2981005000529DCF /* HillClimbingAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AFB4D2981005000529DCF /* HillClimbingAlgorithm.cpp */; };
+		0F8AFB5129854AD800529DCF /* HillClimbingAlgorithmDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AFB5029854AD800529DCF /* HillClimbingAlgorithmDebug.cpp */; };
+		0F8BCE30295B39D2001AFC70 /* TuningTrouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BCE2F295B39D2001AFC70 /* TuningTrouble.swift */; };
+		0F8BCE32295C0C16001AFC70 /* Day6Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BCE31295C0C16001AFC70 /* Day6Part2View.swift */; };
+		0F8BCE34295C119E001AFC70 /* Day7Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8BCE33295C119E001AFC70 /* Day7Part1View.swift */; };
+		0FA8023A299214F60062BB48 /* Day12Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA80239299214F60062BB48 /* Day12Part2View.swift */; };
+		0FA8023C29926EED0062BB48 /* Day13Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8023B29926EEC0062BB48 /* Day13Part1View.swift */; };
+		0FA8023E29926F3F0062BB48 /* DistressSignalWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8023D29926F3F0062BB48 /* DistressSignalWrapper.mm */; };
+		0FA802422992705B0062BB48 /* DistressSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA802402992705B0062BB48 /* DistressSignal.cpp */; };
+		0FAE1A8F297BA5BC002BD68E /* Day11Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE1A8E297BA5BC002BD68E /* Day11Part2View.swift */; };
+		0FB52A2F295D75BF00561618 /* NoSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB52A2E295D75BF00561618 /* NoSpace.swift */; };
+		0FB52A31295D75FA00561618 /* Day7Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB52A30295D75FA00561618 /* Day7Part2View.swift */; };
+		0FB52A33295D770400561618 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB52A32295D770400561618 /* QuizView.swift */; };
+		0FB52A35295D95F800561618 /* Day8Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB52A34295D95F800561618 /* Day8Part1View.swift */; };
+		0FB52A37295EF9EA00561618 /* QuizError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB52A36295EF9EA00561618 /* QuizError.swift */; };
+		0FC584102AE8F2030072EF63 /* SwiftyZeroMQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC5840E2AE8F1FE0072EF63 /* SwiftyZeroMQ.framework */; };
+		0FC584112AE8F2030072EF63 /* SwiftyZeroMQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC5840E2AE8F1FE0072EF63 /* SwiftyZeroMQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FC7F234294EE5AB0066C0EB /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F233294EE5AB0066C0EB /* aoc2022App.swift */; };
+		0FC7F236294EE5AB0066C0EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F235294EE5AB0066C0EB /* ContentView.swift */; };
+		0FC7F238294EE5AC0066C0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7F237294EE5AC0066C0EB /* Assets.xcassets */; };
+		0FC7F23C294EE5AC0066C0EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7F23B294EE5AC0066C0EB /* Preview Assets.xcassets */; };
+		0FC7F246294EE5AC0066C0EB /* aoc2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F245294EE5AC0066C0EB /* aoc2022Tests.swift */; };
+		0FC7F250294EE5AC0066C0EB /* aoc2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F24F294EE5AC0066C0EB /* aoc2022UITests.swift */; };
+		0FC7F252294EE5AC0066C0EB /* aoc2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F251294EE5AC0066C0EB /* aoc2022UITestsLaunchTests.swift */; };
+		0FC7F25F294F03C70066C0EB /* Day1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F25E294F03C70066C0EB /* Day1View.swift */; };
+		0FC7F263294F5BAB0066C0EB /* ElvishInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F262294F5BAB0066C0EB /* ElvishInventory.swift */; };
+		0FC7F265294F5D0F0066C0EB /* Day1Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F264294F5D0F0066C0EB /* Day1Part2View.swift */; };
+		0FC7F267295035560066C0EB /* Day2Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F266295035560066C0EB /* Day2Part1View.swift */; };
+		0FC7F269295095610066C0EB /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F268295095610066C0EB /* RockPaperScissors.swift */; };
+		0FC7F26B295096730066C0EB /* Day2Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F26A295096730066C0EB /* Day2Part2View.swift */; };
+		0FC7F26D2951B5470066C0EB /* Day3Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F26C2951B5470066C0EB /* Day3Part1View.swift */; };
+		0FC7F26F2951FFAC0066C0EB /* RuckSack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7F26E2951FFAC0066C0EB /* RuckSack.swift */; };
+		0FD84D8629580F5B0044289B /* Day5Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD84D8529580F5B0044289B /* Day5Part1View.swift */; };
+		0FD84D88295986CC0044289B /* SupplyStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD84D87295986CC0044289B /* SupplyStacks.swift */; };
+		0FD84D8A295987090044289B /* Day5Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD84D89295987090044289B /* Day5Part2View.swift */; };
+		0FD84D8C2959D0F00044289B /* Day6Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD84D8B2959D0F00044289B /* Day6Part1View.swift */; };
+		0FDD85BF299D019200000B89 /* Day14Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD85BE299D019200000B89 /* Day14Part1View.swift */; };
+		0FDD85C3299E207900000B89 /* RegolithReservoirWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD85C2299E207900000B89 /* RegolithReservoirWrapper.mm */; };
+		0FDD85C7299E2F4400000B89 /* RegolithReservoir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD85C5299E2F4400000B89 /* RegolithReservoir.cpp */; };
+		0FEA59452952CF4D0055D2CE /* Day3Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA59442952CF4D0055D2CE /* Day3Part2View.swift */; };
+		0FEA5947295458230055D2CE /* Day4Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA5946295458230055D2CE /* Day4Part1View.swift */; };
+		0FEA5949295475870055D2CE /* Day4Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA5948295475870055D2CE /* Day4Part2View.swift */; };
+		0FEA594B295475AF0055D2CE /* CampCleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA594A295475AF0055D2CE /* CampCleanup.swift */; };
+		0FEB620529757C3400F1BF4A /* Day11Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB620429757C3400F1BF4A /* Day11Part1View.swift */; };
+		0FEB6208297586E300F1BF4A /* MonkeyInTheMiddleWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB6207297586E300F1BF4A /* MonkeyInTheMiddleWrapper.mm */; };
+		0FEB620B2975899600F1BF4A /* MonkeyInTheMiddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB62092975899600F1BF4A /* MonkeyInTheMiddle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FC7F242294EE5AC0066C0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC7F228294EE5AB0066C0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC7F22F294EE5AB0066C0EB;
+			remoteInfo = aoc2022;
+		};
+		0FC7F24C294EE5AC0066C0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC7F228294EE5AB0066C0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FC7F22F294EE5AB0066C0EB;
+			remoteInfo = aoc2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F88503C2AE8C26F004DDD02 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FC584112AE8F2030072EF63 /* SwiftyZeroMQ.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F0988D3299B342D00541B90 /* Day13Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13Part2View.swift; sourceTree = "<group>"; };
+		0F36232829A2045E00735FD6 /* VisualisationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualisationView.swift; sourceTree = "<group>"; };
+		0F36232A29A2182A00735FD6 /* Visualisation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visualisation.swift; sourceTree = "<group>"; };
+		0F398B4E296FF1200037F10C /* CCRTRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRTRegister.h; sourceTree = "<group>"; };
+		0F398B5129711F660037F10C /* Day10Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10Part2View.swift; sourceTree = "<group>"; };
+		0F398B5529719FD80037F10C /* LargeOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeOutput.swift; sourceTree = "<group>"; };
+		0F398B572971A09A0037F10C /* LargeOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeOutputView.swift; sourceTree = "<group>"; };
+		0F398B592971A3890037F10C /* QuizWithLargeOutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizWithLargeOutputView.swift; sourceTree = "<group>"; };
+		0F39A56F2A77B20F00A37223 /* Day14Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Part2View.swift; sourceTree = "<group>"; };
+		0F4A35D12995FA8F00733406 /* utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		0F51C355296EBD7C00743AC0 /* CathodeRayTube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CathodeRayTube.cpp; sourceTree = "<group>"; };
+		0F51C356296EBD7C00743AC0 /* CathodeRayTube.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CathodeRayTube.hpp; sourceTree = "<group>"; };
+		0F5FCC7929640E2700353BE9 /* Day8Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8Part2View.swift; sourceTree = "<group>"; };
+		0F5FCC7B29640E7800353BE9 /* Treetop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treetop.swift; sourceTree = "<group>"; };
+		0F5FCC7D2966D1BB00353BE9 /* Day9Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Part1View.swift; sourceTree = "<group>"; };
+		0F5FCC7F2966D33900353BE9 /* aoc2022-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aoc2022-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F5FCC802966D33900353BE9 /* RopeBridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RopeBridge.cpp; sourceTree = "<group>"; };
+		0F5FCC812966D33900353BE9 /* RopeBridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RopeBridge.hpp; sourceTree = "<group>"; };
+		0F5FCC8329670B3800353BE9 /* RopeBridgeWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RopeBridgeWrapper.mm; sourceTree = "<group>"; };
+		0F5FCC8529670B4D00353BE9 /* RopeBridgeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RopeBridgeWrapper.h; sourceTree = "<group>"; };
+		0F5FCC862969446A00353BE9 /* CppErrorCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppErrorCode.h; sourceTree = "<group>"; };
+		0F5FCC89296AAE3600353BE9 /* CppError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppError.h; sourceTree = "<group>"; };
+		0F6ECFD1296C128500A06DCA /* RBDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBDirection.h; sourceTree = "<group>"; };
+		0F6ECFD2296D76F000A06DCA /* Day9Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Part2View.swift; sourceTree = "<group>"; };
+		0F6ECFD4296DA9DA00A06DCA /* Day10Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10Part1View.swift; sourceTree = "<group>"; };
+		0F6ECFD6296DAFCE00A06DCA /* CathodeRayTubeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CathodeRayTubeWrapper.h; sourceTree = "<group>"; };
+		0F6ECFD7296DB42A00A06DCA /* CathodeRayTubeWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CathodeRayTubeWrapper.mm; sourceTree = "<group>"; };
+		0F8AFB482980FD4800529DCF /* Day12Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12Part1View.swift; sourceTree = "<group>"; };
+		0F8AFB4A2980FDEE00529DCF /* HillClimbingAlgorithmWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HillClimbingAlgorithmWrapper.h; sourceTree = "<group>"; };
+		0F8AFB4B2980FEB900529DCF /* HillClimbingAlgorithmWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HillClimbingAlgorithmWrapper.mm; sourceTree = "<group>"; };
+		0F8AFB4D2981005000529DCF /* HillClimbingAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HillClimbingAlgorithm.cpp; sourceTree = "<group>"; };
+		0F8AFB4E2981005000529DCF /* HillClimbingAlgorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HillClimbingAlgorithm.hpp; sourceTree = "<group>"; };
+		0F8AFB5029854AD800529DCF /* HillClimbingAlgorithmDebug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HillClimbingAlgorithmDebug.cpp; sourceTree = "<group>"; };
+		0F8BCE2F295B39D2001AFC70 /* TuningTrouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningTrouble.swift; sourceTree = "<group>"; };
+		0F8BCE31295C0C16001AFC70 /* Day6Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6Part2View.swift; sourceTree = "<group>"; };
+		0F8BCE33295C119E001AFC70 /* Day7Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7Part1View.swift; sourceTree = "<group>"; };
+		0FA80239299214F60062BB48 /* Day12Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12Part2View.swift; sourceTree = "<group>"; };
+		0FA8023B29926EEC0062BB48 /* Day13Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13Part1View.swift; sourceTree = "<group>"; };
+		0FA8023D29926F3F0062BB48 /* DistressSignalWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DistressSignalWrapper.mm; sourceTree = "<group>"; };
+		0FA8023F29926F570062BB48 /* DistressSignalWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistressSignalWrapper.h; sourceTree = "<group>"; };
+		0FA802402992705B0062BB48 /* DistressSignal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DistressSignal.cpp; sourceTree = "<group>"; };
+		0FA802412992705B0062BB48 /* DistressSignal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DistressSignal.hpp; sourceTree = "<group>"; };
+		0FAE1A8E297BA5BC002BD68E /* Day11Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11Part2View.swift; sourceTree = "<group>"; };
+		0FB52A2E295D75BF00561618 /* NoSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoSpace.swift; path = aoc2022/Views/NoSpace.swift; sourceTree = SOURCE_ROOT; };
+		0FB52A30295D75FA00561618 /* Day7Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7Part2View.swift; sourceTree = "<group>"; };
+		0FB52A32295D770400561618 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		0FB52A34295D95F800561618 /* Day8Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8Part1View.swift; sourceTree = "<group>"; };
+		0FB52A36295EF9EA00561618 /* QuizError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizError.swift; sourceTree = "<group>"; };
+		0FC5840E2AE8F1FE0072EF63 /* SwiftyZeroMQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyZeroMQ.framework; sourceTree = "<group>"; };
+		0FC7F230294EE5AB0066C0EB /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC7F233294EE5AB0066C0EB /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
+		0FC7F235294EE5AB0066C0EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FC7F237294EE5AC0066C0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FC7F239294EE5AC0066C0EB /* aoc2022.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aoc2022.entitlements; sourceTree = "<group>"; };
+		0FC7F23B294EE5AC0066C0EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FC7F241294EE5AC0066C0EB /* aoc2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aoc2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC7F245294EE5AC0066C0EB /* aoc2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022Tests.swift; sourceTree = "<group>"; };
+		0FC7F24B294EE5AC0066C0EB /* aoc2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aoc2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC7F24F294EE5AC0066C0EB /* aoc2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022UITests.swift; sourceTree = "<group>"; };
+		0FC7F251294EE5AC0066C0EB /* aoc2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FC7F25E294F03C70066C0EB /* Day1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1View.swift; sourceTree = "<group>"; };
+		0FC7F262294F5BAB0066C0EB /* ElvishInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElvishInventory.swift; sourceTree = "<group>"; };
+		0FC7F264294F5D0F0066C0EB /* Day1Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1Part2View.swift; sourceTree = "<group>"; };
+		0FC7F266295035560066C0EB /* Day2Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Part1View.swift; sourceTree = "<group>"; };
+		0FC7F268295095610066C0EB /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
+		0FC7F26A295096730066C0EB /* Day2Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Part2View.swift; sourceTree = "<group>"; };
+		0FC7F26C2951B5470066C0EB /* Day3Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3Part1View.swift; sourceTree = "<group>"; };
+		0FC7F26E2951FFAC0066C0EB /* RuckSack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuckSack.swift; sourceTree = "<group>"; };
+		0FD84D8529580F5B0044289B /* Day5Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Part1View.swift; sourceTree = "<group>"; };
+		0FD84D87295986CC0044289B /* SupplyStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplyStacks.swift; sourceTree = "<group>"; };
+		0FD84D89295987090044289B /* Day5Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Part2View.swift; sourceTree = "<group>"; };
+		0FD84D8B2959D0F00044289B /* Day6Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6Part1View.swift; sourceTree = "<group>"; };
+		0FDD85BE299D019200000B89 /* Day14Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Part1View.swift; sourceTree = "<group>"; };
+		0FDD85C2299E207900000B89 /* RegolithReservoirWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RegolithReservoirWrapper.mm; sourceTree = "<group>"; };
+		0FDD85C4299E208500000B89 /* RegolithReservoirWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegolithReservoirWrapper.h; sourceTree = "<group>"; };
+		0FDD85C5299E2F4400000B89 /* RegolithReservoir.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RegolithReservoir.cpp; sourceTree = "<group>"; };
+		0FDD85C6299E2F4400000B89 /* RegolithReservoir.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RegolithReservoir.hpp; sourceTree = "<group>"; };
+		0FEA59442952CF4D0055D2CE /* Day3Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Part2View.swift; sourceTree = "<group>"; };
+		0FEA5946295458230055D2CE /* Day4Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4Part1View.swift; sourceTree = "<group>"; };
+		0FEA5948295475870055D2CE /* Day4Part2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4Part2View.swift; sourceTree = "<group>"; };
+		0FEA594A295475AF0055D2CE /* CampCleanup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampCleanup.swift; sourceTree = "<group>"; };
+		0FEB620429757C3400F1BF4A /* Day11Part1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11Part1View.swift; sourceTree = "<group>"; };
+		0FEB62062975860B00F1BF4A /* MonkeyInTheMiddleWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyInTheMiddleWrapper.h; sourceTree = "<group>"; };
+		0FEB6207297586E300F1BF4A /* MonkeyInTheMiddleWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MonkeyInTheMiddleWrapper.mm; sourceTree = "<group>"; };
+		0FEB62092975899600F1BF4A /* MonkeyInTheMiddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonkeyInTheMiddle.cpp; sourceTree = "<group>"; };
+		0FEB620A2975899600F1BF4A /* MonkeyInTheMiddle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MonkeyInTheMiddle.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FC7F22D294EE5AB0066C0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC584102AE8F2030072EF63 /* SwiftyZeroMQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC7F23E294EE5AC0066C0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC7F248294EE5AC0066C0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC7F227294EE5AB0066C0EB = {
+			isa = PBXGroup;
+			children = (
+				0FC7F232294EE5AB0066C0EB /* aoc2022 */,
+				0FC7F244294EE5AC0066C0EB /* aoc2022Tests */,
+				0FC7F24E294EE5AC0066C0EB /* aoc2022UITests */,
+				0FDD85B7299CFF1700000B89 /* Frameworks */,
+				0FC7F231294EE5AB0066C0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FC7F231294EE5AB0066C0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7F230294EE5AB0066C0EB /* aoc2022.app */,
+				0FC7F241294EE5AC0066C0EB /* aoc2022Tests.xctest */,
+				0FC7F24B294EE5AC0066C0EB /* aoc2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FC7F232294EE5AB0066C0EB /* aoc2022 */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7F260294F5B800066C0EB /* Views */,
+				0FC7F261294F5B930066C0EB /* Models */,
+				0FC7F233294EE5AB0066C0EB /* aoc2022App.swift */,
+				0FC7F237294EE5AC0066C0EB /* Assets.xcassets */,
+				0FC7F239294EE5AC0066C0EB /* aoc2022.entitlements */,
+				0FC7F23A294EE5AC0066C0EB /* Preview Content */,
+			);
+			path = aoc2022;
+			sourceTree = "<group>";
+		};
+		0FC7F23A294EE5AC0066C0EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7F23B294EE5AC0066C0EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FC7F244294EE5AC0066C0EB /* aoc2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7F245294EE5AC0066C0EB /* aoc2022Tests.swift */,
+			);
+			path = aoc2022Tests;
+			sourceTree = "<group>";
+		};
+		0FC7F24E294EE5AC0066C0EB /* aoc2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7F24F294EE5AC0066C0EB /* aoc2022UITests.swift */,
+				0FC7F251294EE5AC0066C0EB /* aoc2022UITestsLaunchTests.swift */,
+			);
+			path = aoc2022UITests;
+			sourceTree = "<group>";
+		};
+		0FC7F260294F5B800066C0EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7F235294EE5AB0066C0EB /* ContentView.swift */,
+				0F398B572971A09A0037F10C /* LargeOutputView.swift */,
+				0F36232829A2045E00735FD6 /* VisualisationView.swift */,
+				0F398B5529719FD80037F10C /* LargeOutput.swift */,
+				0F36232A29A2182A00735FD6 /* Visualisation.swift */,
+				0FB52A32295D770400561618 /* QuizView.swift */,
+				0F398B592971A3890037F10C /* QuizWithLargeOutputView.swift */,
+				0FC7F25E294F03C70066C0EB /* Day1View.swift */,
+				0FC7F264294F5D0F0066C0EB /* Day1Part2View.swift */,
+				0FC7F266295035560066C0EB /* Day2Part1View.swift */,
+				0FC7F26A295096730066C0EB /* Day2Part2View.swift */,
+				0FC7F26C2951B5470066C0EB /* Day3Part1View.swift */,
+				0FEA59442952CF4D0055D2CE /* Day3Part2View.swift */,
+				0FEA5946295458230055D2CE /* Day4Part1View.swift */,
+				0FEA5948295475870055D2CE /* Day4Part2View.swift */,
+				0FD84D8529580F5B0044289B /* Day5Part1View.swift */,
+				0FD84D89295987090044289B /* Day5Part2View.swift */,
+				0FD84D8B2959D0F00044289B /* Day6Part1View.swift */,
+				0F8BCE31295C0C16001AFC70 /* Day6Part2View.swift */,
+				0F8BCE33295C119E001AFC70 /* Day7Part1View.swift */,
+				0FB52A30295D75FA00561618 /* Day7Part2View.swift */,
+				0FB52A34295D95F800561618 /* Day8Part1View.swift */,
+				0F5FCC7929640E2700353BE9 /* Day8Part2View.swift */,
+				0F5FCC7D2966D1BB00353BE9 /* Day9Part1View.swift */,
+				0F6ECFD2296D76F000A06DCA /* Day9Part2View.swift */,
+				0F6ECFD4296DA9DA00A06DCA /* Day10Part1View.swift */,
+				0F398B5129711F660037F10C /* Day10Part2View.swift */,
+				0FEB620429757C3400F1BF4A /* Day11Part1View.swift */,
+				0FAE1A8E297BA5BC002BD68E /* Day11Part2View.swift */,
+				0F8AFB482980FD4800529DCF /* Day12Part1View.swift */,
+				0FA80239299214F60062BB48 /* Day12Part2View.swift */,
+				0FA8023B29926EEC0062BB48 /* Day13Part1View.swift */,
+				0F0988D3299B342D00541B90 /* Day13Part2View.swift */,
+				0FDD85BE299D019200000B89 /* Day14Part1View.swift */,
+				0F39A56F2A77B20F00A37223 /* Day14Part2View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FC7F261294F5B930066C0EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F4A35D12995FA8F00733406 /* utility.h */,
+				0F5FCC7B29640E7800353BE9 /* Treetop.swift */,
+				0FB52A36295EF9EA00561618 /* QuizError.swift */,
+				0FB52A2E295D75BF00561618 /* NoSpace.swift */,
+				0F8BCE2F295B39D2001AFC70 /* TuningTrouble.swift */,
+				0FC7F262294F5BAB0066C0EB /* ElvishInventory.swift */,
+				0FC7F268295095610066C0EB /* RockPaperScissors.swift */,
+				0FC7F26E2951FFAC0066C0EB /* RuckSack.swift */,
+				0FEA594A295475AF0055D2CE /* CampCleanup.swift */,
+				0FD84D87295986CC0044289B /* SupplyStacks.swift */,
+				0F5FCC802966D33900353BE9 /* RopeBridge.cpp */,
+				0F5FCC812966D33900353BE9 /* RopeBridge.hpp */,
+				0F6ECFD1296C128500A06DCA /* RBDirection.h */,
+				0F5FCC862969446A00353BE9 /* CppErrorCode.h */,
+				0F5FCC89296AAE3600353BE9 /* CppError.h */,
+				0F5FCC7F2966D33900353BE9 /* aoc2022-Bridging-Header.h */,
+				0FEB62062975860B00F1BF4A /* MonkeyInTheMiddleWrapper.h */,
+				0FEB6207297586E300F1BF4A /* MonkeyInTheMiddleWrapper.mm */,
+				0F8AFB4A2980FDEE00529DCF /* HillClimbingAlgorithmWrapper.h */,
+				0F8AFB4B2980FEB900529DCF /* HillClimbingAlgorithmWrapper.mm */,
+				0FA8023F29926F570062BB48 /* DistressSignalWrapper.h */,
+				0FA8023D29926F3F0062BB48 /* DistressSignalWrapper.mm */,
+				0FDD85C4299E208500000B89 /* RegolithReservoirWrapper.h */,
+				0FDD85C2299E207900000B89 /* RegolithReservoirWrapper.mm */,
+				0FEB62092975899600F1BF4A /* MonkeyInTheMiddle.cpp */,
+				0FEB620A2975899600F1BF4A /* MonkeyInTheMiddle.hpp */,
+				0F8AFB4D2981005000529DCF /* HillClimbingAlgorithm.cpp */,
+				0F8AFB5029854AD800529DCF /* HillClimbingAlgorithmDebug.cpp */,
+				0F8AFB4E2981005000529DCF /* HillClimbingAlgorithm.hpp */,
+				0F5FCC8329670B3800353BE9 /* RopeBridgeWrapper.mm */,
+				0F5FCC8529670B4D00353BE9 /* RopeBridgeWrapper.h */,
+				0F6ECFD6296DAFCE00A06DCA /* CathodeRayTubeWrapper.h */,
+				0F398B4E296FF1200037F10C /* CCRTRegister.h */,
+				0F6ECFD7296DB42A00A06DCA /* CathodeRayTubeWrapper.mm */,
+				0F51C356296EBD7C00743AC0 /* CathodeRayTube.hpp */,
+				0F51C355296EBD7C00743AC0 /* CathodeRayTube.cpp */,
+				0FA802402992705B0062BB48 /* DistressSignal.cpp */,
+				0FA802412992705B0062BB48 /* DistressSignal.hpp */,
+				0FDD85C5299E2F4400000B89 /* RegolithReservoir.cpp */,
+				0FDD85C6299E2F4400000B89 /* RegolithReservoir.hpp */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FDD85B7299CFF1700000B89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5840E2AE8F1FE0072EF63 /* SwiftyZeroMQ.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FC7F22F294EE5AB0066C0EB /* aoc2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC7F255294EE5AC0066C0EB /* Build configuration list for PBXNativeTarget "aoc2022" */;
+			buildPhases = (
+				0FC7F22C294EE5AB0066C0EB /* Sources */,
+				0FC7F22D294EE5AB0066C0EB /* Frameworks */,
+				0FC7F22E294EE5AB0066C0EB /* Resources */,
+				0F88503C2AE8C26F004DDD02 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aoc2022;
+			productName = aoc2022;
+			productReference = 0FC7F230294EE5AB0066C0EB /* aoc2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FC7F240294EE5AC0066C0EB /* aoc2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC7F258294EE5AC0066C0EB /* Build configuration list for PBXNativeTarget "aoc2022Tests" */;
+			buildPhases = (
+				0FC7F23D294EE5AC0066C0EB /* Sources */,
+				0FC7F23E294EE5AC0066C0EB /* Frameworks */,
+				0FC7F23F294EE5AC0066C0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC7F243294EE5AC0066C0EB /* PBXTargetDependency */,
+			);
+			name = aoc2022Tests;
+			productName = aoc2022Tests;
+			productReference = 0FC7F241294EE5AC0066C0EB /* aoc2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FC7F24A294EE5AC0066C0EB /* aoc2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC7F25B294EE5AC0066C0EB /* Build configuration list for PBXNativeTarget "aoc2022UITests" */;
+			buildPhases = (
+				0FC7F247294EE5AC0066C0EB /* Sources */,
+				0FC7F248294EE5AC0066C0EB /* Frameworks */,
+				0FC7F249294EE5AC0066C0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC7F24D294EE5AC0066C0EB /* PBXTargetDependency */,
+			);
+			name = aoc2022UITests;
+			productName = aoc2022UITests;
+			productReference = 0FC7F24B294EE5AC0066C0EB /* aoc2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FC7F228294EE5AB0066C0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0FC7F22F294EE5AB0066C0EB = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					0FC7F240294EE5AC0066C0EB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0FC7F22F294EE5AB0066C0EB;
+					};
+					0FC7F24A294EE5AC0066C0EB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0FC7F22F294EE5AB0066C0EB;
+					};
+				};
+			};
+			buildConfigurationList = 0FC7F22B294EE5AB0066C0EB /* Build configuration list for PBXProject "aoc2022" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FC7F227294EE5AB0066C0EB;
+			productRefGroup = 0FC7F231294EE5AB0066C0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FC7F22F294EE5AB0066C0EB /* aoc2022 */,
+				0FC7F240294EE5AC0066C0EB /* aoc2022Tests */,
+				0FC7F24A294EE5AC0066C0EB /* aoc2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FC7F22E294EE5AB0066C0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7F23C294EE5AC0066C0EB /* Preview Assets.xcassets in Resources */,
+				0FC7F238294EE5AC0066C0EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC7F23F294EE5AC0066C0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC7F249294EE5AC0066C0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FC7F22C294EE5AB0066C0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA8023E29926F3F0062BB48 /* DistressSignalWrapper.mm in Sources */,
+				0F51C357296EBD7C00743AC0 /* CathodeRayTube.cpp in Sources */,
+				0FC7F236294EE5AB0066C0EB /* ContentView.swift in Sources */,
+				0F398B5629719FD80037F10C /* LargeOutput.swift in Sources */,
+				0FAE1A8F297BA5BC002BD68E /* Day11Part2View.swift in Sources */,
+				0F8AFB4C2980FEB900529DCF /* HillClimbingAlgorithmWrapper.mm in Sources */,
+				0FEA5949295475870055D2CE /* Day4Part2View.swift in Sources */,
+				0FC7F26D2951B5470066C0EB /* Day3Part1View.swift in Sources */,
+				0FD84D88295986CC0044289B /* SupplyStacks.swift in Sources */,
+				0F0988D4299B342D00541B90 /* Day13Part2View.swift in Sources */,
+				0F8AFB492980FD4800529DCF /* Day12Part1View.swift in Sources */,
+				0FC7F265294F5D0F0066C0EB /* Day1Part2View.swift in Sources */,
+				0F6ECFD8296DB42A00A06DCA /* CathodeRayTubeWrapper.mm in Sources */,
+				0FB52A33295D770400561618 /* QuizView.swift in Sources */,
+				0F8BCE34295C119E001AFC70 /* Day7Part1View.swift in Sources */,
+				0FEA5947295458230055D2CE /* Day4Part1View.swift in Sources */,
+				0F398B582971A09A0037F10C /* LargeOutputView.swift in Sources */,
+				0FEB620B2975899600F1BF4A /* MonkeyInTheMiddle.cpp in Sources */,
+				0F36232B29A2182A00735FD6 /* Visualisation.swift in Sources */,
+				0F8AFB5129854AD800529DCF /* HillClimbingAlgorithmDebug.cpp in Sources */,
+				0F8BCE32295C0C16001AFC70 /* Day6Part2View.swift in Sources */,
+				0FDD85C3299E207900000B89 /* RegolithReservoirWrapper.mm in Sources */,
+				0F6ECFD3296D76F000A06DCA /* Day9Part2View.swift in Sources */,
+				0F5FCC7C29640E7800353BE9 /* Treetop.swift in Sources */,
+				0FA8023C29926EED0062BB48 /* Day13Part1View.swift in Sources */,
+				0FA802422992705B0062BB48 /* DistressSignal.cpp in Sources */,
+				0FA8023A299214F60062BB48 /* Day12Part2View.swift in Sources */,
+				0FD84D8629580F5B0044289B /* Day5Part1View.swift in Sources */,
+				0FC7F26B295096730066C0EB /* Day2Part2View.swift in Sources */,
+				0FDD85C7299E2F4400000B89 /* RegolithReservoir.cpp in Sources */,
+				0F8AFB4F2981005000529DCF /* HillClimbingAlgorithm.cpp in Sources */,
+				0F5FCC822966D33900353BE9 /* RopeBridge.cpp in Sources */,
+				0FEB620529757C3400F1BF4A /* Day11Part1View.swift in Sources */,
+				0FC7F269295095610066C0EB /* RockPaperScissors.swift in Sources */,
+				0FD84D8C2959D0F00044289B /* Day6Part1View.swift in Sources */,
+				0FDD85BF299D019200000B89 /* Day14Part1View.swift in Sources */,
+				0FC7F263294F5BAB0066C0EB /* ElvishInventory.swift in Sources */,
+				0F8BCE30295B39D2001AFC70 /* TuningTrouble.swift in Sources */,
+				0FC7F26F2951FFAC0066C0EB /* RuckSack.swift in Sources */,
+				0FB52A37295EF9EA00561618 /* QuizError.swift in Sources */,
+				0FEA594B295475AF0055D2CE /* CampCleanup.swift in Sources */,
+				0F6ECFD5296DA9DA00A06DCA /* Day10Part1View.swift in Sources */,
+				0FB52A35295D95F800561618 /* Day8Part1View.swift in Sources */,
+				0FEA59452952CF4D0055D2CE /* Day3Part2View.swift in Sources */,
+				0F398B5229711F660037F10C /* Day10Part2View.swift in Sources */,
+				0FC7F234294EE5AB0066C0EB /* aoc2022App.swift in Sources */,
+				0F39A5702A77B20F00A37223 /* Day14Part2View.swift in Sources */,
+				0F5FCC7A29640E2700353BE9 /* Day8Part2View.swift in Sources */,
+				0F5FCC7E2966D1BB00353BE9 /* Day9Part1View.swift in Sources */,
+				0FD84D8A295987090044289B /* Day5Part2View.swift in Sources */,
+				0FB52A31295D75FA00561618 /* Day7Part2View.swift in Sources */,
+				0F36232929A2045E00735FD6 /* VisualisationView.swift in Sources */,
+				0FC7F25F294F03C70066C0EB /* Day1View.swift in Sources */,
+				0FC7F267295035560066C0EB /* Day2Part1View.swift in Sources */,
+				0FB52A2F295D75BF00561618 /* NoSpace.swift in Sources */,
+				0F398B5A2971A3890037F10C /* QuizWithLargeOutputView.swift in Sources */,
+				0F5FCC8429670B3800353BE9 /* RopeBridgeWrapper.mm in Sources */,
+				0FEB6208297586E300F1BF4A /* MonkeyInTheMiddleWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC7F23D294EE5AC0066C0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7F246294EE5AC0066C0EB /* aoc2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FC7F247294EE5AC0066C0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7F252294EE5AC0066C0EB /* aoc2022UITestsLaunchTests.swift in Sources */,
+				0FC7F250294EE5AC0066C0EB /* aoc2022UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FC7F243294EE5AC0066C0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FC7F22F294EE5AB0066C0EB /* aoc2022 */;
+			targetProxy = 0FC7F242294EE5AC0066C0EB /* PBXContainerItemProxy */;
+		};
+		0FC7F24D294EE5AC0066C0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FC7F22F294EE5AB0066C0EB /* aoc2022 */;
+			targetProxy = 0FC7F24C294EE5AC0066C0EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC7F253294EE5AC0066C0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FC7F254294EE5AC0066C0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0FC7F256294EE5AC0066C0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = aoc2022/aoc2022.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"aoc2022/Preview Content\"";
+				DEVELOPMENT_TEAM = 68ULM8WQMP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/cppzmq/4.9.0/include,
+					/opt/homebrew/Cellar/zeromq/4.3.4/include,
+				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/zeromq/4.3.4/lib,
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpacapuccino.aoc2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "aoc2022/Models/aoc2022-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FC7F257294EE5AC0066C0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = aoc2022/aoc2022.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"aoc2022/Preview Content\"";
+				DEVELOPMENT_TEAM = 68ULM8WQMP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/cppzmq/4.9.0/include,
+					/opt/homebrew/Cellar/zeromq/4.3.4/include,
+				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/zeromq/4.3.4/lib,
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpacapuccino.aoc2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "aoc2022/Models/aoc2022-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FC7F259294EE5AC0066C0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 68ULM8WQMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpacapuccino.aoc2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoc2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aoc2022";
+			};
+			name = Debug;
+		};
+		0FC7F25A294EE5AC0066C0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 68ULM8WQMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpacapuccino.aoc2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoc2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aoc2022";
+			};
+			name = Release;
+		};
+		0FC7F25C294EE5AC0066C0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 68ULM8WQMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpacapuccino.aoc2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aoc2022;
+			};
+			name = Debug;
+		};
+		0FC7F25D294EE5AC0066C0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 68ULM8WQMP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpacapuccino.aoc2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = aoc2022;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FC7F22B294EE5AB0066C0EB /* Build configuration list for PBXProject "aoc2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC7F253294EE5AC0066C0EB /* Debug */,
+				0FC7F254294EE5AC0066C0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC7F255294EE5AC0066C0EB /* Build configuration list for PBXNativeTarget "aoc2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC7F256294EE5AC0066C0EB /* Debug */,
+				0FC7F257294EE5AC0066C0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC7F258294EE5AC0066C0EB /* Build configuration list for PBXNativeTarget "aoc2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC7F259294EE5AC0066C0EB /* Debug */,
+				0FC7F25A294EE5AC0066C0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC7F25B294EE5AC0066C0EB /* Build configuration list for PBXNativeTarget "aoc2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC7F25C294EE5AC0066C0EB /* Debug */,
+				0FC7F25D294EE5AC0066C0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FC7F228294EE5AB0066C0EB /* Project object */;
+}

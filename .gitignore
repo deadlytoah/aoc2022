@@ -1,0 +1,11 @@
+*.aux
+*.dot
+*.log
+*.pdf
+*.svg
+*.tex
+*SnapShot*.launch
+aoc2022.xcodeproj/xcuserdata
+aoc2022/Specs/CaveCell.toolbox/Model_1*
+states/
+xcuserdata
